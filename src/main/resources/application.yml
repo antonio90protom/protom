@@ -1,0 +1,12 @@
+server:
+  port: 8081
+logging:
+  level:
+    root: INFO
+security:
+  jwt:
+    public-key: classpath:public.key
+spring:
+  jpa:
+    show-sql: true
+    hibernate.naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
